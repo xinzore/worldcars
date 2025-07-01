@@ -1,0 +1,889 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Araç Kiralama</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+              <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+              <span>Araç Kiralama</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Ana Sayfa</a></li>
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#deals">Kiralama Fırsatları</a></li>
+          <li><a href="#choose">Neden Bizi Seçin</a></li>
+          <li><a href="#client">Müşteri Yorumları</a></li>
+          <li><a href="#">Kayıt Ol</a></li>
+        </ul>
+        <div class="nav__btns">
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>👍 Mersin'de %100 güvenilir araç kiralama hizmeti</h2>
+          <h1>HIZLI VE KOLAY ARAÇ KİRALAMA</h1>
+          <p class="section__description">
+            Bizimle sorunsuz bir araç kiralama deneyimi yaşayın. Tarzınıza ve ihtiyaçlarınıza uygun 
+            premium veya ekonomik araçlar arasından seçim yapın ve yola güvenle çıkın. Hızlı, kolay ve güvenilir
+            aracınızı bugün kiralayın!
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="deals" id="deals">
+      <div class="section__container deals__container">
+        <h2 class="section__header">En popüler araç kiralama fırsatları</h2>
+        <p class="section__description">
+          Size en iyi değer ve deneyimi sunmak için özenle seçilmiş en iyi araç 
+          kiralama fırsatlarımızı keşfedin. Şimdi rezervasyon yapın ve favori 
+          aracınızı inanılmaz bir fiyata sürün!
+        </p>
+        <div class="deals__tabs">
+          <button class="btn active" data-id="Tesla">Renault</button>
+          <button class="btn" data-id="Mitsubishi">Mitsubishi</button>
+          <button class="btn" data-id="Mazda">Mazda</button>
+          <button class="btn" data-id="Toyota">Toyota</button>
+          <button class="btn" data-id="Honda">Honda</button>
+        </div>
+        <div id="Tesla" class="tab__content active">
+          <div class="deals__card">
+            <img src="assets/deals-1.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>Tesla Model S</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Otopilot
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 400km
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Elektrikli
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$180<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Tesla%20Model%20S%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-2.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(450)</span>
+            </div>
+            <h4>Tesla Model E</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Otopilot
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 400km
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Elektrikli
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$150<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Tesla%20Model%20E%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-3.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>Tesla Model Y</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Otopilot
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 400km
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Elektrikli
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$200<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Tesla%20Model%20Y%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Mitsubishi" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/deals-4.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>Mirage</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$120<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Mirage%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-5.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(250)</span>
+            </div>
+            <h4>Xpander</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$150<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Xpander%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-6.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(150)</span>
+            </div>
+            <h4>Pajero Sports</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$180<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Pajero%20Sports%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Mazda" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/deals-7.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(200)</span>
+            </div>
+            <h4>Mazda CX5</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$130<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Mazda%20CX5%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-8.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(100)</span>
+            </div>
+            <h4>Mazda CX-30</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$200<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Mazda%20CX-30%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-9.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(180)</span>
+            </div>
+            <h4>Mazda CX-9</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$180<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Mazda%20CX-9%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Toyota" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/deals-10.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(250)</span>
+            </div>
+            <h4>Corolla</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$180<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Corolla%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-11.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(550)</span>
+            </div>
+            <h4>Innova</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$150<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Innova%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-12.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(180)</span>
+            </div>
+            <h4>Fortuner</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$190<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Fortuner%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="Honda" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/deals-13.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(200)</span>
+            </div>
+            <h4>Amaze</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$100<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Amaze%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-14.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(350)</span>
+            </div>
+            <h4>Elevate</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$120<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20Elevate%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="deals__card">
+            <img src="assets/deals-15.png" alt="deals" />
+            <div class="deals__rating">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+              <span>(300)</span>
+            </div>
+            <h4>City</h4>
+            <div class="deals__card__grid">
+              <div>
+                <span><i class="ri-group-line"></i></span> 4 Kişi
+              </div>
+              <div>
+                <span><i class="ri-steering-2-line"></i></span> Manuel
+              </div>
+              <div>
+                <span><i class="ri-speed-up-line"></i></span> 18km/l
+              </div>
+              <div>
+                <span><i class="ri-car-line"></i></span> Dizel
+              </div>
+            </div>
+            <hr />
+            <div class="deals__card__footer">
+              <h3>$150<span>/Günlük</span></h3>
+              <a href="https://wa.me/905300000000?text=Merhaba,%20City%20aracını%20kiralamak%20istiyorum.">
+                Şimdi Kirala
+                <span><i class="ri-arrow-right-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choose__container" id="choose">
+      <div class="choose__image">
+        <img src="assets/choose.png" alt="choose" />
+      </div>
+      <div class="choose__content">
+        <h2 class="section__header">Neden bizi seçin</h2>
+        <p class="section__description">
+          Araç kiralama hizmetimizdeki farkı keşfedin. Sorunsuz bir kiralama 
+          deneyimi sağlamak için güvenilir araçlar, olağanüstü müşteri hizmeti 
+          ve rekabetçi fiyatlar sunuyoruz.
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-customer-service-line"></i></span>
+            <div>
+              <h4>Müşteri Desteği</h4>
+              <p>Özel destek ekibimiz size 7/24 yardımcı olmak için hazır.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-map-pin-line"></i></span>
+            <div>
+              <h4>Çok Sayıda Konum</h4>
+              <p>
+                Seyahat ihtiyaçlarınıza uygun konumlardan araç teslim alma 
+                ve iade etme imkanı.
+              </p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-wallet-line"></i></span>
+            <div>
+              <h4>En İyi Fiyat</h4>
+              <p>Her kiralama için rekabetçi oranlar ve harika değer.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-user-star-line"></i></span>
+            <div>
+              <h4>Deneyimli Şoför</h4>
+              <p>Talep üzerine güvenilir, profesyonel şoförler mevcut.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-verified-badge-line"></i></span>
+            <div>
+              <h4>Onaylanmış Markalar</h4>
+              <p>Güvenilir ve iyi bakım görmüş araç markaları arasından seçim.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-calendar-close-line"></i></span>
+            <div>
+              <h4>Ücretsiz İptal</h4>
+              <p>Ücretsiz iptal seçenekli esnek rezervasyonlar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container about__container" id="about">
+      <h2 class="section__header">Hakkımızda</h2>
+      <p class="section__description">
+        Mersin'de araç kiralama bizden sorulur
+      </p>
+      <div class="about__grid">
+        <div class="about__card">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <h4>Adrsimiz</h4>
+          <p>
+            İhtiyaçlarınıza en uygun çeşitli teslim alma noktalarından seçim yapın; 
+            ister evinize, işinize veya havaalanına yakın olsun.
+          </p>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-whatsapp-fill"></i></span>
+          <h4>Whatsapp</h4>
+          <p>
+            Araç teslim alma için tam tarih ve saati seçin, sonra Whatsapp'tan bize ulaşın. Aracınızın 
+            ihtiyacınız olduğunda hazır olmasını sağlayın.
+          </p>
+        </div>
+        <div class="about__card">
+          <span><i class="ri-wallet-2-fill"></i></span>
+          <h4>Hesaplı</h4>
+          <p>
+            Uygun fiyatlı seçeneklerimiz mevcuttur.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">İnsanlar hakkımızda ne diyor?</h2>
+      <p class="section__description">
+        Müşterilerimizin bizden neden memnun kaldığını öğrenin! Olağanüstü 
+        hizmet sunduğumuzu görmek için gerçek değerlendirme ve yorumları okuyun.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="client" />
+                <div>
+                  <h4>Ayşe Yılmaz</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Bu hizmetten araç kiralamak muhteşem bir deneyimdi. Rezervasyon 
+                süreci hızlı ve kolaydı, araç mükemmel durumdaydı. Kesinlikle tavsiye ederim!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="client" />
+                <div>
+                  <h4>Mehmet Kaya</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Müşteri desteği mükemmeldi! Tüm sorularımda bana yardımcı oldular 
+                ve rezervasyonum konusunda kendimi güvende hissettim. Kesinlikle tekrar kiralayacağım.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="client" />
+                <div>
+                  <h4>Fatma Özdemir</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Uygun fiyatlar ve harika araç seçenekleri! Tam ihtiyacım olanı buldum 
+                ve teslim alma ile iade süreci sorunsuzdu. Kiraladığım araçtan çok memnunum.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="client" />
+                <div>
+                  <h4>Ali Demir</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Ücretsiz iptal esnekliği seyahatimi stresten uzak hale getirdi. 
+                Planlarımı değiştirmek zorunda kaldım ve rezervasyonumu ayarlamak hiç sorun değildi. Harika hizmet!
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-5.jpg" alt="client" />
+                <div>
+                  <h4>Hasan Çelik</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Kiraladığım araç birinci sınıftı ve şoför çok deneyimliydi. 
+                Yol yolculuğumu çok daha keyifli hale getirdi. Bir dahaki sefere yine onları kullanacağım!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/logo-white.png" alt="logo" />
+              <span>Araç Kiralama</span>
+            </a>
+          </div>
+          <p>
+            Size en iyi araçları ve sorunsuz bir kiralama deneyimi sunmak için buradayız. 
+            Güncellemeler, özel teklifler ve daha fazlası için bağlantıda kalın. Güvenle sürün!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/cars.world.mersin/"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Hizmetlerimiz</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#about">Hakkımızda</a></li>
+            <li><a href="#deals">Kiralama Fırsatları</a></li>
+            <li><a href="#choose">Neden Bizi Seçin</a></li>
+            <li><a href="#client">Müşteri Yorumları</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Araç Modelleri</h4>
+          <ul class="footer__links">
+            <li><a href="#">Toyota Corolla</a></li>
+            <li><a href="#">Toyota Noah</a></li>
+            <li><a href="#">Toyota Allion</a></li>
+            <li><a href="#">Toyota Premio</a></li>
+            <li><a href="#">Mitsubishi Pajero</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>İletişim</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +90 532 123 45 67
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span> Mersin, Türkiye
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span> info@arackiralama
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025 Xinzore. Tüm hakları saklıdır.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
