@@ -57,10 +57,11 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: flex-end;
 }
 
 .logo img {
-  max-width: 35px;
+  max-width: 75px;
 }
 
 .logo span {
@@ -97,7 +98,7 @@ body {
 header {
   background: linear-gradient(
     to bottom,
-    rgba(138, 121, 240, 0),
+    rgba(60, 51, 113, 47%),
     rgba(138, 121, 240, 0.1)
   );
 }
@@ -197,7 +198,7 @@ nav {
   font-size: 1rem;
   font-weight: 500;
   color: var(--primary-color);
-  background-color: var(--white);
+  background-color: #ffffff45;
   border-radius: 5rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
 }
@@ -421,8 +422,9 @@ nav {
 }
 
 .deals__card__footer a {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--primary-color);
+  font-size: 20px;
 }
 
 .deals__card__footer a:hover {
@@ -711,7 +713,7 @@ nav {
   }
 
   .nav__logo img {
-    max-width: 45px;
+    max-width: 250px;
   }
 
   .nav__logo .logo-dark {
